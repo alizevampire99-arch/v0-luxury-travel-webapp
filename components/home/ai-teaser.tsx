@@ -19,10 +19,10 @@ export function AiTeaser() {
               </div>
 
               <h2 className="font-serif text-3xl font-bold text-foreground sm:text-4xl text-balance">
-                D&eacute;couvrez <span className="text-primary">Chronos IA</span>
+                D&eacute;couvrez <span className="text-primary">notre IA</span>
               </h2>
               <p className="mt-4 leading-relaxed text-muted-foreground">
-                Notre agent d&apos;intelligence temporelle conna&icirc;t chaque &eacute;poque, chaque risque et chaque tr&eacute;sor cach&eacute; &agrave; travers la chronologie. Demandez &agrave; Chronos n&apos;importe quoi -- du meilleur caf&eacute; du Paris des ann&eacute;es 1920 aux conseils de survie au Jurassique. Votre voyage id&eacute;al commence par une conversation.
+                Notre agent d&apos;intelligence temporelle conna&icirc;t chaque &eacute;poque, chaque risque et chaque tr&eacute;sor cach&eacute; &agrave; travers la chronologie. Demandez &agrave; Chronos n&apos;importe quoi du meilleur caf&eacute; du Paris des ann&eacute;es 1920 aux conseils de survie au Jurassique. Votre voyage id&eacute;al commence par une conversation.
               </p>
 
               <div className="mt-8 flex flex-col items-center justify-center gap-4 sm:flex-row">

@@ -10,7 +10,6 @@ import { cn } from "@/lib/utils"
 const navLinks = [
   { label: "Accueil", href: "/" },
   { label: "Destinations", href: "/destinations" },
-  { label: "Agent IA", href: "/plan" },
   { label: "Personnaliser mon voyage", href: "/plan" },
 ]
 
@@ -46,12 +45,6 @@ export function SiteHeader() {
             </Link>
           ))}
         </nav>
-
-        <div className="hidden items-center gap-3 md:flex">
-          <Button asChild size="sm" className="bg-primary text-primary-foreground hover:bg-primary/90">
-            <Link href="/plan">R&eacute;server mon voyage</Link>
-          </Button>
-        </div>
 
         <button
           className="flex items-center justify-center md:hidden text-foreground"

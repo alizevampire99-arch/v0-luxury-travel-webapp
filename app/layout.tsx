@@ -52,7 +52,6 @@ export default function RootLayout({
         <SiteHeader />
         <main className="min-h-screen pt-16">{children}</main>
         <SiteFooter />
-        <FloatingChat />
         <Analytics />
       </body>
     </html>

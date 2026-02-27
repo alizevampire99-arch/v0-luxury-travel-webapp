@@ -13,12 +13,12 @@ export function DestinationsPreview() {
       <div className="mx-auto max-w-7xl px-4 lg:px-8">
         <FadeIn>
           <div className="text-center">
-            <p className="text-sm font-medium uppercase tracking-[0.2em] text-primary">Popular Destinations</p>
+            <p className="text-sm font-medium uppercase tracking-[0.2em] text-primary">Destinations populaires</p>
             <h2 className="mt-3 font-serif text-3xl font-bold text-foreground sm:text-4xl text-balance">
-              Where Will You Go?
+              O&ugrave; irez-vous ?
             </h2>
             <p className="mx-auto mt-4 max-w-xl text-muted-foreground">
-              From the grandeur of ancient civilizations to the wonders of the far future, choose your era and begin your journey.
+              De la grandeur des civilisations anciennes aux merveilles du futur lointain, choisissez votre &eacute;poque et commencez votre voyage.
             </p>
           </div>
         </FadeIn>
@@ -40,7 +40,7 @@ export function DestinationsPreview() {
               className="border-primary/30 text-primary hover:bg-primary/10 hover:text-primary"
             >
               <Link href="/destinations">
-                View All Destinations
+                Voir toutes les destinations
                 <ArrowRight className="size-4" />
               </Link>
             </Button>

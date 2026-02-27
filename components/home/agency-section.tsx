@@ -5,18 +5,18 @@ import { FadeIn } from "@/components/fade-in"
 const badges = [
   {
     icon: Shield,
-    title: "Safety Protocol",
-    description: "Quantum-locked timelines ensure zero paradox risk",
+    title: "Protocole de s\u00e9curit\u00e9",
+    description: "Des lignes temporelles verrouill\u00e9es garantissent z\u00e9ro risque de paradoxe",
   },
   {
     icon: Users,
-    title: "Expert Guides",
-    description: "Historians and scientists accompany every journey",
+    title: "Guides experts",
+    description: "Historiens et scientifiques accompagnent chaque voyage",
   },
   {
     icon: Cpu,
-    title: "AI Assistance",
-    description: "Chronos AI plans and monitors your trip in real-time",
+    title: "Assistance IA",
+    description: "Chronos IA planifie et surveille votre voyage en temps r\u00e9el",
   },
 ]
 
@@ -29,7 +29,7 @@ export function AgencySection() {
             <div className="relative aspect-[4/3] overflow-hidden rounded-xl border border-border">
               <Image
                 src="/images/agency-hero.jpg"
-                alt="TimeTravel Agency luxury time portal chamber"
+                alt="Chambre de portail temporel de luxe TimeTravel Agency"
                 fill
                 className="object-cover"
               />
@@ -39,15 +39,15 @@ export function AgencySection() {
 
           <FadeIn delay={200}>
             <div>
-              <p className="text-sm font-medium uppercase tracking-[0.2em] text-primary">Who We Are</p>
+              <p className="text-sm font-medium uppercase tracking-[0.2em] text-primary">Qui sommes-nous</p>
               <h2 className="mt-3 font-serif text-3xl font-bold text-foreground sm:text-4xl text-balance">
-                Where Luxury Meets the Impossible
+                L&agrave; o&ugrave; le luxe rencontre l&apos;impossible
               </h2>
               <p className="mt-4 leading-relaxed text-muted-foreground">
-                Founded in 2031, TimeTravel Agency pioneered commercial temporal tourism. Our proprietary Chrono-Displacement technology, combined with meticulous historical research, delivers experiences that are not just trips -- they are transformations.
+                Fond&eacute;e en 2031, TimeTravel Agency a &eacute;t&eacute; pionni&egrave;re du tourisme temporel commercial. Notre technologie exclusive de Chrono-D&eacute;placement, alli&eacute;e &agrave; une recherche historique m&eacute;ticuleuse, offre des exp&eacute;riences qui ne sont pas de simples voyages -- ce sont des transformations.
               </p>
               <p className="mt-3 leading-relaxed text-muted-foreground">
-                Every journey is curated by our team of temporal historians, safety engineers, and cultural experts. From the moment you step into our departure chamber to the second you return, you are enveloped in uncompromising luxury and absolute safety.
+                Chaque voyage est con&ccedil;u par notre &eacute;quipe d&apos;historiens temporels, d&apos;ing&eacute;nieurs de s&eacute;curit&eacute; et d&apos;experts culturels. Du moment o&ugrave; vous entrez dans notre chambre de d&eacute;part jusqu&apos;&agrave; votre retour, vous &ecirc;tes envelopp&eacute; dans un luxe sans compromis et une s&eacute;curit&eacute; absolue.
               </p>
 
               <div className="mt-8 grid gap-4 sm:grid-cols-3">

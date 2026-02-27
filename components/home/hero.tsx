@@ -36,7 +36,7 @@ export function Hero() {
           }`}
         >
           <p className="mb-4 text-sm font-medium uppercase tracking-[0.25em] text-primary">
-            Luxury Temporal Tourism
+            Tourisme Temporel de Luxe
           </p>
         </div>
 
@@ -46,8 +46,8 @@ export function Hero() {
           }`}
         >
           <span className="text-balance">
-            Journey Beyond <br className="hidden sm:block" />
-            <span className="text-primary">Time Itself</span>
+            Voyagez au-del&agrave; <br className="hidden sm:block" />
+            <span className="text-primary">du Temps</span>
           </span>
         </h1>
 
@@ -56,7 +56,7 @@ export function Hero() {
             loaded ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
           }`}
         >
-          The world&apos;s most exclusive travel agency. We don&apos;t cross continents -- we cross centuries. Experience history as it unfolds, in absolute luxury and safety.
+          L&apos;agence de voyage la plus exclusive au monde. Nous ne traversons pas les continents -- nous traversons les si&egrave;cles. Vivez l&apos;histoire en direct, dans un luxe et une s&eacute;curit&eacute; absolus.
         </p>
 
         <div
@@ -71,7 +71,7 @@ export function Hero() {
           >
             <Link href="/destinations">
               <Compass className="size-4" />
-              Explore Destinations
+              Explorer les &eacute;poques
             </Link>
           </Button>
           <Button
@@ -81,7 +81,7 @@ export function Hero() {
             className="border-primary/30 text-primary hover:bg-primary/10 hover:text-primary px-8 text-base"
           >
             <Link href="/plan">
-              Talk to AI Agent
+              Parler &agrave; l&apos;agent IA
               <ArrowRight className="size-4" />
             </Link>
           </Button>
@@ -93,9 +93,9 @@ export function Hero() {
           }`}
         >
           {[
-            { value: "2,847+", label: "Trips Completed" },
-            { value: "100%", label: "Safe Returns" },
-            { value: "147", label: "Eras Available" },
+            { value: "2 847+", label: "Voyages effectu\u00e9s" },
+            { value: "100%", label: "Retours en s\u00e9curit\u00e9" },
+            { value: "147", label: "\u00c9poques disponibles" },
           ].map((stat) => (
             <div key={stat.label} className="text-center">
               <p className="text-xl font-bold text-primary sm:text-2xl">{stat.value}</p>
@@ -108,7 +108,7 @@ export function Hero() {
       {/* Scroll indicator */}
       <div className="absolute bottom-8 left-1/2 -translate-x-1/2">
         <div className="flex flex-col items-center gap-2">
-          <span className="text-xs tracking-widest text-muted-foreground uppercase">Scroll</span>
+          <span className="text-xs tracking-widest text-muted-foreground uppercase">D&eacute;filer</span>
           <div className="h-8 w-px bg-gradient-to-b from-primary/50 to-transparent animate-bounce" />
         </div>
       </div>

@@ -19,10 +19,10 @@ export function AiTeaser() {
               </div>
 
               <h2 className="font-serif text-3xl font-bold text-foreground sm:text-4xl text-balance">
-                Meet <span className="text-primary">Chronos AI</span>
+                D&eacute;couvrez <span className="text-primary">Chronos IA</span>
               </h2>
               <p className="mt-4 leading-relaxed text-muted-foreground">
-                Our temporal intelligence agent knows every era, every risk, and every hidden gem across the timeline. Ask Chronos anything -- from the best cafe in 1920s Paris to survival tips in the Jurassic. Your perfect journey starts with a conversation.
+                Notre agent d&apos;intelligence temporelle conna&icirc;t chaque &eacute;poque, chaque risque et chaque tr&eacute;sor cach&eacute; &agrave; travers la chronologie. Demandez &agrave; Chronos n&apos;importe quoi -- du meilleur caf&eacute; du Paris des ann&eacute;es 1920 aux conseils de survie au Jurassique. Votre voyage id&eacute;al commence par une conversation.
               </p>
 
               <div className="mt-8 flex flex-col items-center justify-center gap-4 sm:flex-row">
@@ -33,7 +33,7 @@ export function AiTeaser() {
                 >
                   <Link href="/plan">
                     <Sparkles className="size-4" />
-                    Start Planning with AI
+                    Planifier avec l&apos;IA
                   </Link>
                 </Button>
                 <Button
@@ -43,7 +43,7 @@ export function AiTeaser() {
                   className="text-primary hover:text-primary hover:bg-primary/5"
                 >
                   <Link href="/destinations">
-                    Browse Destinations
+                    Parcourir les destinations
                     <ArrowRight className="size-4" />
                   </Link>
                 </Button>

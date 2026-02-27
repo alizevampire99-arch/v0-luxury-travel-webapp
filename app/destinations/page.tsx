@@ -5,7 +5,7 @@ import type { Metadata } from "next"
 
 export const metadata: Metadata = {
   title: "Destinations | TimeTravel Agency",
-  description: "Browse our curated collection of temporal destinations spanning millions of years of history and future.",
+  description: "Parcourez notre collection de destinations temporelles couvrant des millions d\u2019ann\u00e9es d\u2019histoire et de futur.",
 }
 
 export default function DestinationsPage() {
@@ -15,12 +15,12 @@ export default function DestinationsPage() {
       <div className="mx-auto max-w-7xl px-4 lg:px-8">
         <FadeIn>
           <div className="py-12 text-center">
-            <p className="text-sm font-medium uppercase tracking-[0.2em] text-primary">Our Catalog</p>
+            <p className="text-sm font-medium uppercase tracking-[0.2em] text-primary">Notre catalogue</p>
             <h1 className="mt-3 font-serif text-4xl font-bold text-foreground sm:text-5xl text-balance">
-              Explore Every Era
+              Explorez chaque &eacute;poque
             </h1>
             <p className="mx-auto mt-4 max-w-xl text-muted-foreground leading-relaxed">
-              Each destination has been meticulously scouted, safety-tested, and prepared by our temporal advance teams. Choose your era and step through time.
+              Chaque destination a &eacute;t&eacute; m&eacute;ticuleusement explor&eacute;e, test&eacute;e et pr&eacute;par&eacute;e par nos &eacute;quipes d&apos;avant-garde temporelle. Choisissez votre &eacute;poque et traversez le temps.
             </p>
           </div>
         </FadeIn>

@@ -33,7 +33,7 @@ export function AgencySection() {
             muted
             playsInline
             className="absolute inset-0 w-full h-full object-cover">
-            <source src="/public/video-hero.mp4" type="video/mp4" />
+            <source src="public/video-hero.mp4" type="video/mp4" />
           </video>
               <div className="absolute inset-0 bg-gradient-to-tr from-background/60 via-transparent to-primary/10" />
             </div>

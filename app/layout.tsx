@@ -4,7 +4,6 @@ import { Playfair_Display } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/next'
 import { SiteHeader } from '@/components/site-header'
 import { SiteFooter } from '@/components/site-footer'
-import { FloatingChat } from '@/components/floating-chat'
 import './globals.css'
 
 const _geist = Geist({ subsets: ["latin"] });

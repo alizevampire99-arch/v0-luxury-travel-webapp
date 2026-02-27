@@ -8,10 +8,10 @@ import { Button } from "@/components/ui/button"
 import { cn } from "@/lib/utils"
 
 const navLinks = [
-  { label: "Home", href: "/" },
+  { label: "Accueil", href: "/" },
   { label: "Destinations", href: "/destinations" },
-  { label: "AI Agent", href: "/plan" },
-  { label: "Plan My Trip", href: "/plan" },
+  { label: "Agent IA", href: "/plan" },
+  { label: "Personnaliser mon voyage", href: "/plan" },
 ]
 
 export function SiteHeader() {
@@ -49,7 +49,7 @@ export function SiteHeader() {
 
         <div className="hidden items-center gap-3 md:flex">
           <Button asChild size="sm" className="bg-primary text-primary-foreground hover:bg-primary/90">
-            <Link href="/plan">Book My Trip</Link>
+            <Link href="/plan">R&eacute;server mon voyage</Link>
           </Button>
         </div>
 
@@ -81,7 +81,7 @@ export function SiteHeader() {
               </Link>
             ))}
             <Button asChild size="sm" className="mt-2 bg-primary text-primary-foreground hover:bg-primary/90">
-              <Link href="/plan" onClick={() => setMobileOpen(false)}>Book My Trip</Link>
+              <Link href="/plan" onClick={() => setMobileOpen(false)}>R&eacute;server mon voyage</Link>
             </Button>
           </nav>
         </div>

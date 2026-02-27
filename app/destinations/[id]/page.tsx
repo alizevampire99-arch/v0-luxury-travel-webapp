@@ -19,7 +19,7 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { id } = await params
   const dest = destinations.find((d) => d.id === id)
-  if (!dest) return { title: "Destination Not Found" }
+  if (!dest) return { title: "Destination introuvable" }
   return {
     title: `${dest.title} | TimeTravel Agency`,
     description: dest.shortDescription,
@@ -36,10 +36,10 @@ export default async function DestinationDetailPage({
   if (!dest) notFound()
 
   const adviceItems = [
-    { icon: CloudSun, label: "Climate", value: dest.practicalAdvice.climate },
-    { icon: Globe, label: "Language", value: dest.practicalAdvice.language },
-    { icon: ScrollText, label: "Customs", value: dest.practicalAdvice.customs },
-    { icon: AlertTriangle, label: "Risks", value: dest.practicalAdvice.risks },
+    { icon: CloudSun, label: "Climat", value: dest.practicalAdvice.climate },
+    { icon: Globe, label: "Langue", value: dest.practicalAdvice.language },
+    { icon: ScrollText, label: "Coutumes", value: dest.practicalAdvice.customs },
+    { icon: AlertTriangle, label: "Risques", value: dest.practicalAdvice.risks },
   ]
 
   return (

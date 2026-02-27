@@ -15,44 +15,44 @@ export function SiteFooter() {
               </span>
             </Link>
             <p className="mt-3 text-sm leading-relaxed text-muted-foreground">
-              The world&apos;s premier temporal tourism agency. Luxury journeys through time, crafted with precision and care.
+              La premi&egrave;re agence de tourisme temporel au monde. Des voyages de luxe &agrave; travers le temps, con&ccedil;us avec pr&eacute;cision et &eacute;l&eacute;gance.
             </p>
           </div>
 
           <div>
-            <h4 className="mb-3 text-sm font-semibold uppercase tracking-wider text-primary">Explore</h4>
+            <h4 className="mb-3 text-sm font-semibold uppercase tracking-wider text-primary">Explorer</h4>
             <ul className="flex flex-col gap-2">
-              <li><Link href="/destinations" className="text-sm text-muted-foreground transition-colors hover:text-primary">All Destinations</Link></li>
-              <li><Link href="/plan" className="text-sm text-muted-foreground transition-colors hover:text-primary">Plan My Trip</Link></li>
-              <li><Link href="/" className="text-sm text-muted-foreground transition-colors hover:text-primary">AI Agent</Link></li>
+              <li><Link href="/destinations" className="text-sm text-muted-foreground transition-colors hover:text-primary">Toutes les destinations</Link></li>
+              <li><Link href="/plan" className="text-sm text-muted-foreground transition-colors hover:text-primary">Personnaliser mon voyage</Link></li>
+              <li><Link href="/" className="text-sm text-muted-foreground transition-colors hover:text-primary">Agent IA</Link></li>
             </ul>
           </div>
 
           <div>
-            <h4 className="mb-3 text-sm font-semibold uppercase tracking-wider text-primary">Company</h4>
+            <h4 className="mb-3 text-sm font-semibold uppercase tracking-wider text-primary">Entreprise</h4>
             <ul className="flex flex-col gap-2">
-              <li><span className="text-sm text-muted-foreground">About Us</span></li>
-              <li><span className="text-sm text-muted-foreground">Safety Protocols</span></li>
-              <li><span className="text-sm text-muted-foreground">Careers</span></li>
+              <li><span className="text-sm text-muted-foreground">&Agrave; propos</span></li>
+              <li><span className="text-sm text-muted-foreground">Protocoles de s&eacute;curit&eacute;</span></li>
+              <li><span className="text-sm text-muted-foreground">Carri&egrave;res</span></li>
             </ul>
           </div>
 
           <div>
-            <h4 className="mb-3 text-sm font-semibold uppercase tracking-wider text-primary">Legal</h4>
+            <h4 className="mb-3 text-sm font-semibold uppercase tracking-wider text-primary">L&eacute;gal</h4>
             <ul className="flex flex-col gap-2">
-              <li><span className="text-sm text-muted-foreground">Terms of Service</span></li>
-              <li><span className="text-sm text-muted-foreground">Privacy Policy</span></li>
-              <li><span className="text-sm text-muted-foreground">Temporal Liability Waiver</span></li>
+              <li><span className="text-sm text-muted-foreground">Conditions g&eacute;n&eacute;rales</span></li>
+              <li><span className="text-sm text-muted-foreground">Politique de confidentialit&eacute;</span></li>
+              <li><span className="text-sm text-muted-foreground">D&eacute;charge de responsabilit&eacute; temporelle</span></li>
             </ul>
           </div>
         </div>
 
         <div className="mt-12 flex flex-col items-center justify-between gap-4 border-t border-border pt-8 md:flex-row">
           <p className="text-xs text-muted-foreground">
-            TimeTravel Agency. All timelines reserved.
+            TimeTravel Agency. Toutes les lignes temporelles r&eacute;serv&eacute;es.
           </p>
           <p className="text-xs text-muted-foreground">
-            Regulated by the Temporal Commerce Authority
+            R&eacute;gul&eacute; par l&apos;Autorit&eacute; du Commerce Temporel
           </p>
         </div>
       </div>

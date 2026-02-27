@@ -15,8 +15,8 @@ const _playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: 'TimeTravel Agency | Luxury Temporal Tourism',
-  description: 'The world\'s premier time travel agency. Explore ancient civilizations, witness historical moments, and journey to the future in absolute luxury and safety.',
+  title: 'TimeTravel Agency | Tourisme Temporel de Luxe',
+  description: 'La toute premiere agence de voyage temporel au monde. Explorez les civilisations anciennes, assistez aux grands moments de l\'histoire et voyagez vers le futur dans un luxe et une securite absolus.',
   generator: 'v0.app',
   icons: {
     icon: [
@@ -47,7 +47,7 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en" className={_playfair.variable}>
+    <html lang="fr" className={_playfair.variable}>
       <body className="font-sans antialiased">
         <SiteHeader />
         <main className="min-h-screen pt-16">{children}</main>

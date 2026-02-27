@@ -13,12 +13,12 @@ export default function PlanPage() {
       <div className="mx-auto max-w-7xl px-4 lg:px-8">
         <FadeIn>
           <div className="py-12 text-center">
-            <p className="text-sm font-medium uppercase tracking-[0.2em] text-primary">AI-Powered Planning</p>
+            <p className="text-sm font-medium uppercase tracking-[0.2em] text-primary">PLANIFICATION BASÉE SUR L'IA</p>
             <h1 className="mt-3 font-serif text-4xl font-bold text-foreground sm:text-5xl text-balance">
-              Craft Your Perfect Journey
+              Créez votre voyage parfait
             </h1>
             <p className="mx-auto mt-4 max-w-xl text-muted-foreground leading-relaxed">
-              Tell us your preferences and let Chronos AI design a personalized itinerary across any era in our catalog.
+              Faites-nous part de vos préférences et laissez Chronos AI concevoir un itinéraire personnalisé pour n'importe quelle époque de notre catalogue.
             </p>
           </div>
         </FadeIn>
@@ -26,7 +26,7 @@ export default function PlanPage() {
         <div className="grid gap-8 pb-16 lg:grid-cols-2">
           <FadeIn>
             <div className="rounded-xl border border-border bg-card p-6">
-              <h2 className="mb-6 font-serif text-xl font-bold text-foreground">Your Preferences</h2>
+              <h2 className="mb-6 font-serif text-xl font-bold text-foreground">Vos préférences</h2>
               <TripForm onGenerate={() => setGenerated(true)} />
             </div>
           </FadeIn>

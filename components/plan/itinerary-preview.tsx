@@ -15,7 +15,7 @@ export function ItineraryPreview({ generated }: ItineraryPreviewProps) {
         </div>
         <h3 className="mt-4 font-serif text-xl font-bold text-foreground">Votre itinéraire vous attend</h3>
         <p className="mt-2 max-w-xs text-sm text-muted-foreground">
-          Fill in your preferences and click &quot;Generate My Journey&quot; to see your personalized time travel itinerary.
+          Renseignez vos préférences et cliquez sur &quot;Générer mon voyage&quot; pour consulter votre itinéraire personnalisé.
         </p>
       </div>
     )
@@ -29,7 +29,7 @@ export function ItineraryPreview({ generated }: ItineraryPreviewProps) {
         </div>
         <div>
           <h3 className="font-serif text-lg font-bold text-foreground">Florence, 1504</h3>
-          <p className="text-xs text-muted-foreground">Premium | 4 Days | Art & Culture</p>
+          <p className="text-xs text-muted-foreground">Premium | 4 Jours | Art & Culture</p>
         </div>
       </div>
 
@@ -41,10 +41,10 @@ export function ItineraryPreview({ generated }: ItineraryPreviewProps) {
         </h4>
         <div className="flex flex-col gap-3">
           {[
-            { day: "Day 1", desc: "Arrival and orientation at the Palazzo Medici. Evening walk through the Piazza della Signoria under torchlight." },
-            { day: "Day 2", desc: "Private viewing of Michelangelo's David unveiling ceremony. Afternoon at Leonardo da Vinci's workshop." },
-            { day: "Day 3", desc: "Medici Court dinner. Morning at the Uffizi (in its original form). Artisan leather workshop visit." },
-            { day: "Day 4", desc: "Sunrise over the Arno. Final market exploration. Return through the temporal gate." },
+            { day: "Day 1", desc: "Arrivée et présentation au Palazzo Medici. Promenade nocturne aux flambeaux sur la Piazza della Signoria." },
+            { day: "Day 2", desc: "Visite privée de la cérémonie de dévoilement du David de Michel-Ange. Après-midi à l'atelier de Léonard de Vinci." },
+            { day: "Day 3", desc: "Dîner à la cour des Médicis. Matinée à la Galerie des Offices (dans sa configuration d'origine). Visite d'un atelier artisanal de maroquinerie." },
+            { day: "Day 4", desc: "Lever de soleil sur l'Arno. Dernière exploration du marché. Retour par la porte temporelle." },
           ].map((item) => (
             <div key={item.day} className="flex gap-3 rounded-lg bg-secondary/30 p-3">
               <span className="shrink-0 text-xs font-bold text-primary">{item.day}</span>
@@ -61,10 +61,10 @@ export function ItineraryPreview({ generated }: ItineraryPreviewProps) {
           Equipment Suggestions
         </h4>
         <ul className="flex flex-col gap-1.5 text-xs text-muted-foreground">
-          <li className="flex items-start gap-2"><span className="mt-0.5 size-1.5 shrink-0 rounded-full bg-primary" />Period-accurate Renaissance attire (provided)</li>
-          <li className="flex items-start gap-2"><span className="mt-0.5 size-1.5 shrink-0 rounded-full bg-primary" />Neural translator earpiece</li>
-          <li className="flex items-start gap-2"><span className="mt-0.5 size-1.5 shrink-0 rounded-full bg-primary" />Nano-shield medical bracelet</li>
-          <li className="flex items-start gap-2"><span className="mt-0.5 size-1.5 shrink-0 rounded-full bg-primary" />Temporal compass (emergency extraction)</li>
+          <li className="flex items-start gap-2"><span className="mt-0.5 size-1.5 shrink-0 rounded-full bg-primary" />Tenue Renaissance d'époque (fournie)</li>
+          <li className="flex items-start gap-2"><span className="mt-0.5 size-1.5 shrink-0 rounded-full bg-primary" />oreillette de traduction neuronale</li>
+          <li className="flex items-start gap-2"><span className="mt-0.5 size-1.5 shrink-0 rounded-full bg-primary" />Bracelet médical Nano-bouclier</li>
+          <li className="flex items-start gap-2"><span className="mt-0.5 size-1.5 shrink-0 rounded-full bg-primary" />Boussole temporelle (extraction d'urgence)</li>
         </ul>
       </div>
 
@@ -76,7 +76,7 @@ export function ItineraryPreview({ generated }: ItineraryPreviewProps) {
         </h4>
         <div className="rounded-lg border border-yellow-400/20 bg-yellow-400/5 p-3">
           <p className="text-xs leading-relaxed text-muted-foreground">
-            Avoid discussing future events or displaying unfamiliar technology. Political tensions between the Medici and rival families are high. Stay with your guide during court events.
+            Évitez de parler des événements futurs ou de faire étalage de technologies inconnues. Les tensions politiques entre les Médicis et les familles rivales sont vives. Restez avec votre guide lors des événements de la cour.
           </p>
         </div>
       </div>
@@ -85,12 +85,12 @@ export function ItineraryPreview({ generated }: ItineraryPreviewProps) {
       <div>
         <h4 className="mb-3 flex items-center gap-2 text-sm font-semibold text-foreground">
           <BookOpen className="size-4 text-primary" />
-          Cultural Tips
+          Conseils culturels
         </h4>
         <ul className="flex flex-col gap-1.5 text-xs text-muted-foreground">
-          <li className="flex items-start gap-2"><span className="mt-0.5 size-1.5 shrink-0 rounded-full bg-primary" />Complimenting an artist&apos;s work is the highest social currency</li>
-          <li className="flex items-start gap-2"><span className="mt-0.5 size-1.5 shrink-0 rounded-full bg-primary" />Always bow to members of the Medici family</li>
-          <li className="flex items-start gap-2"><span className="mt-0.5 size-1.5 shrink-0 rounded-full bg-primary" />Meals are communal -- refuse nothing offered to you</li>
+          <li className="flex items-start gap-2"><span className="mt-0.5 size-1.5 shrink-0 rounded-full bg-primary" />Complimenter le travail d'un artiste est la plus haute forme de reconnaissance sociale.</li>
+          <li className="flex items-start gap-2"><span className="mt-0.5 size-1.5 shrink-0 rounded-full bg-primary" />Inclinez-vous toujours devant les membres de la famille Médicis.</li>
+          <li className="flex items-start gap-2"><span className="mt-0.5 size-1.5 shrink-0 rounded-full bg-primary" />Les repas sont pris en commun, ne refusez rien de ce qui vous est offert.</li>
         </ul>
       </div>
 
@@ -98,14 +98,14 @@ export function ItineraryPreview({ generated }: ItineraryPreviewProps) {
       <div>
         <h4 className="mb-3 flex items-center gap-2 text-sm font-semibold text-foreground">
           <MessageCircle className="size-4 text-primary" />
-          Useful Phrases
+          Phrases utiles
         </h4>
         <div className="grid gap-2 sm:grid-cols-2">
           {[
-            { phrase: "Buongiorno, Signore", meaning: "Good day, Sir" },
-            { phrase: "Che meraviglia!", meaning: "How wonderful!" },
-            { phrase: "Sono un viaggiatore", meaning: "I am a traveler" },
-            { phrase: "Grazie mille", meaning: "Many thanks" },
+            { phrase: "Buongiorno, Signore", meaning: "Bonjour, Monsieur" },
+            { phrase: "Che meraviglia!", meaning: "Comme c'est merveilleux !" },
+            { phrase: "Sono un viaggiatore", meaning: "Je suis un voyageur" },
+            { phrase: "Grazie mille", meaning: "Merci beaucoup" },
           ].map((p) => (
             <div key={p.phrase} className="rounded-lg bg-secondary/30 p-2">
               <p className="text-xs font-medium text-primary">{p.phrase}</p>

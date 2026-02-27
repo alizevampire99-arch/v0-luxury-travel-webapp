@@ -13,7 +13,7 @@ export function ItineraryPreview({ generated }: ItineraryPreviewProps) {
         <div className="flex size-16 items-center justify-center rounded-full border border-primary/20 bg-primary/5">
           <Calendar className="size-7 text-primary/40" />
         </div>
-        <h3 className="mt-4 font-serif text-xl font-bold text-foreground">Your Itinerary Awaits</h3>
+        <h3 className="mt-4 font-serif text-xl font-bold text-foreground">Votre itinéraire vous attend</h3>
         <p className="mt-2 max-w-xs text-sm text-muted-foreground">
           Fill in your preferences and click &quot;Generate My Journey&quot; to see your personalized time travel itinerary.
         </p>

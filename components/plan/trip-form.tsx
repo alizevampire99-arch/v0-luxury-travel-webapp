@@ -38,8 +38,8 @@ export function TripForm({ onGenerate }: TripFormProps) {
     <div className="flex flex-col gap-8">
       {/* Budget */}
       <div>
-        <label className="text-sm font-semibold text-foreground">Budget Tier</label>
-        <p className="mt-1 text-xs text-muted-foreground">Select your preferred level of luxury</p>
+        <label className="text-sm font-semibold text-foreground">Budget</label>
+        <p className="mt-1 text-xs text-muted-foreground">Choisissez votre niveau de luxe préféré</p>
         <div className="mt-3 grid grid-cols-3 gap-2">
           {[
             { value: "standard", label: "Standard" },
@@ -78,7 +78,7 @@ export function TripForm({ onGenerate }: TripFormProps) {
                   : "border-border bg-card text-muted-foreground hover:border-primary/30"
               )}
             >
-              {d} days
+              {d} jours
             </button>
           ))}
         </div>

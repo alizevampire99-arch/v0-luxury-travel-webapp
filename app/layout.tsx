@@ -48,7 +48,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="fr" className={_playfair.variable}>
-      Widget (Tidio/Cal.ai/Voiceflow/Chatbase)
+     <script src="//code.tidio.co/umkv4vkjr3lx729r7slyd3xjeqrehbtf.js" async></script>
       <body className="font-sans antialiased">
         <SiteHeader />
         <main className="min-h-screen pt-16">{children}</main>

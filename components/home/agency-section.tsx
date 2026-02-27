@@ -27,12 +27,14 @@ export function AgencySection() {
         <div className="grid items-center gap-12 lg:grid-cols-2">
           <FadeIn>
             <div className="relative aspect-[4/3] overflow-hidden rounded-xl border border-border">
-              <Image
-                src="/images/video-hero.mp4"
-                alt="Chambre de portail temporel de luxe TimeTravel Agency"
-                fill
-                className="object-cover"
-              />
+            <video
+            autoPlay
+            loop
+            muted
+            playsInline
+            className="absolute inset-0 w-full h-full object-cover">
+            <source src="/public/video-hero.mp4" type="video/mp4" />
+          </video>
               <div className="absolute inset-0 bg-gradient-to-tr from-background/60 via-transparent to-primary/10" />
             </div>
           </FadeIn>

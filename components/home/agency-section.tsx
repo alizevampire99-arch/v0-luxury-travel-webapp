@@ -28,7 +28,7 @@ export function AgencySection() {
           <FadeIn>
             <div className="relative aspect-[4/3] overflow-hidden rounded-xl border border-border">
               <Image
-                src="/images/agency-hero.jpg"
+                src="/images/video-hero.mp4"
                 alt="Chambre de portail temporel de luxe TimeTravel Agency"
                 fill
                 className="object-cover"

@@ -7,8 +7,8 @@ import { cn } from "@/lib/utils"
 
 const interestOptions = [
   "Art & Culture",
-  "Ancient History",
-  "Science & Innovation",
+  "Histoire ancienne",
+  "Sciences et innovations",
   "Nature & Wildlife",
   "Cuisine & Dining",
   "Architecture",

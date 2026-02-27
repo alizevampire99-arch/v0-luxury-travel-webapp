@@ -8,14 +8,14 @@ import { cn } from "@/lib/utils"
 const interestOptions = [
   "Art & Culture",
   "Histoire ancienne",
-  "Sciences et innovations",
-  "Nature & Wildlife",
-  "Cuisine & Dining",
+  "Sciences & innovations",
+  "Nature & Faune",
+  "Cuisine & Manger",
   "Architecture",
-  "Music & Performance",
-  "Royalty & Courts",
-  "Warfare & Strategy",
-  "Mythology & Religion",
+  "Musique & performances",
+  "Royauté & tribunaux",
+  "Guerre & stratégie",
+  "Mythologie & religion",
 ]
 
 interface TripFormProps {
@@ -44,7 +44,7 @@ export function TripForm({ onGenerate }: TripFormProps) {
           {[
             { value: "standard", label: "Standard" },
             { value: "premium", label: "Premium" },
-            { value: "ultimate", label: "Ultimate" },
+            { value: "ultimate", label: "Ultime" },
           ].map((opt) => (
             <button
               key={opt.value}
@@ -64,8 +64,8 @@ export function TripForm({ onGenerate }: TripFormProps) {
 
       {/* Duration */}
       <div>
-        <label className="text-sm font-semibold text-foreground">Duration</label>
-        <p className="mt-1 text-xs text-muted-foreground">How long do you want to stay?</p>
+        <label className="text-sm font-semibold text-foreground">Durée</label>
+        <p className="mt-1 text-xs text-muted-foreground">Combien de temps souhaitez-vous rester ?</p>
         <div className="mt-3 grid grid-cols-4 gap-2">
           {["1-2", "3-5", "5-7", "7+"].map((d) => (
             <button
@@ -86,8 +86,8 @@ export function TripForm({ onGenerate }: TripFormProps) {
 
       {/* Interests */}
       <div>
-        <label className="text-sm font-semibold text-foreground">Interests</label>
-        <p className="mt-1 text-xs text-muted-foreground">Select all that appeal to you</p>
+        <label className="text-sm font-semibold text-foreground">Intérêts</label>
+        <p className="mt-1 text-xs text-muted-foreground">Sélectionnez tout ce qui vous plaît</p>
         <div className="mt-3 flex flex-wrap gap-2">
           {interestOptions.map((interest) => (
             <button
@@ -108,13 +108,13 @@ export function TripForm({ onGenerate }: TripFormProps) {
 
       {/* Risk Tolerance */}
       <div>
-        <label className="text-sm font-semibold text-foreground">Risk Tolerance</label>
-        <p className="mt-1 text-xs text-muted-foreground">How adventurous are you?</p>
+        <label className="text-sm font-semibold text-foreground">Tolérance au risque</label>
+        <p className="mt-1 text-xs text-muted-foreground">Êtes-vous plutôt aventureux ?</p>
         <div className="mt-3 grid grid-cols-3 gap-2">
           {[
-            { value: "low", label: "Play it Safe" },
-            { value: "moderate", label: "Balanced" },
-            { value: "high", label: "Thrill Seeker" },
+            { value: "faible", label: "Jouez en toute sécurité" },
+            { value: "modéré", label: "Équilibré" },
+            { value: "haute", label: "Chercheur de sensations fortes" },
           ].map((opt) => (
             <button
               key={opt.value}
@@ -134,11 +134,11 @@ export function TripForm({ onGenerate }: TripFormProps) {
 
       {/* Constraints */}
       <div>
-        <label className="text-sm font-semibold text-foreground">Special Requirements</label>
-        <p className="mt-1 text-xs text-muted-foreground">Any allergies, mobility needs, or preferences</p>
+        <label className="text-sm font-semibold text-foreground">Exigences particulières</label>
+        <p className="mt-1 text-xs text-muted-foreground">Allergies, besoins en matière de mobilité ou préférences particulières</p>
         <textarea
           rows={3}
-          placeholder="E.g., I need wheelchair-accessible temporal pods..."
+          placeholder="Par exemple, j'ai besoin de capsules temporales accessibles aux fauteuils roulants..."
           className="mt-3 w-full rounded-lg border border-border bg-input px-3 py-2 text-sm text-foreground placeholder:text-muted-foreground focus:border-primary focus:outline-none focus:ring-1 focus:ring-primary/50 resize-none"
         />
       </div>
@@ -150,7 +150,7 @@ export function TripForm({ onGenerate }: TripFormProps) {
         className="w-full bg-primary text-primary-foreground hover:bg-primary/90"
       >
         <Sparkles className="size-4" />
-        Generate My Journey
+        Génère mon voyage
       </Button>
     </div>
   )
